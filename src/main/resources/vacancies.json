@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Senior Java Backend Developer",
+    "languages": ["JAVA"],
+    "technologies": ["SPRING", "SPRING_BOOT", "DOCKER", "KUBERNETES", "GIT", "POSTGRESQL"],
+    "experienceMonths": 60,
+    "employmentType": "FULL_TIME",
+    "remoteWorkType": "REMOTE",
+    "salaryFrom": 6000.00,
+    "salaryTo": 9000.00
+  },
+  {
+    "title": "Java Backend Engineer",
+    "languages": ["JAVA"],
+    "technologies": ["SPRING", "JUNIT", "GITLAB", "DOCKER", "AWS", "POSTGRESQL"],
+    "experienceMonths": 48,
+    "employmentType": "FULL_TIME",
+    "remoteWorkType": "HYBRID",
+    "salaryFrom": 5500.00,
+    "salaryTo": 8000.00
+  },
+  {
+    "title": "Mid-Level Java Developer",
+    "languages": ["JAVA"],
+    "technologies": ["SPRING_BOOT", "GIT", "SQL", "JUNIT", "JENKINS", "KUBERNETES"],
+    "experienceMonths": 36,
+    "employmentType": "FULL_TIME",
+    "remoteWorkType": "ON_SITE",
+    "salaryFrom": 5000.00,
+    "salaryTo": 7000.00
+  },
+  {
+    "title": "Java Backend Developer",
+    "languages": ["JAVA"],
+    "technologies": ["SPRING", "DOCKER", "GITHUB", "MONGODB", "JENKINS", "KUBERNETES"],
+    "experienceMonths": 24,
+    "employmentType": "PART_TIME",
+    "remoteWorkType": "REMOTE",
+    "salaryFrom": 4000.00,
+    "salaryTo": 6000.00
+  },
+  {
+    "title": "Junior Java Developer",
+    "languages": ["JAVA"],
+    "technologies": ["SPRING_BOOT", "GIT", "SQL", "JUNIT", "DOCKER"],
+    "experienceMonths": 12,
+    "employmentType": "CONTRACT",
+    "remoteWorkType": "ON_SITE",
+    "salaryFrom": 3000.00,
+    "salaryTo": 4500.00
+  },
+  {
+    "title": "Senior Frontend Developer",
+    "languages": ["JAVASCRIPT"],
+    "technologies": ["REACT", "GIT", "DOCKER", "AWS", "JENKINS", "GITHUB"],
+    "experienceMonths": 60,
+    "employmentType": "FULL_TIME",
+    "remoteWorkType": "REMOTE",
+    "salaryFrom": 6000.00,
+    "salaryTo": 8500.00
+  },
+  {
+    "title": "Frontend Engineer",
+    "languages": ["JAVASCRIPT", "TYPESCRIPT"],
+    "technologies": ["ANGULAR", "GITLAB", "KUBERNETES", "GITLAB_ACTIONS", "SQL"],
+    "experienceMonths": 48,
+    "employmentType": "FULL_TIME",
+    "remoteWorkType": "HYBRID",
+    "salaryFrom": 5500.00,
+    "salaryTo": 8000.00
+  },
+  {
+    "title": "React Developer",
+    "languages": ["JAVASCRIPT"],
+    "technologies": ["REACT", "DOCKER", "GITHUB", "MONGODB", "SELENIUM", "AWS"],
+    "experienceMonths": 36,
+    "employmentType": "FULL_TIME",
+    "remoteWorkType": "ON_SITE",
+    "salaryFrom": 5000.00,
+    "salaryTo": 7500.00
+  },
+  {
+    "title": "Vue.js Frontend Developer",
+    "languages": ["JAVASCRIPT"],
+    "technologies": ["VUE_JS", "GIT", "POSTGRESQL", "DOCKER", "AZURE", "JENKINS"],
+    "experienceMonths": 24,
+    "employmentType": "PART_TIME",
+    "remoteWorkType": "REMOTE",
+    "salaryFrom": 4000.00,
+    "salaryTo": 6500.00
+  },
+  {
+    "title": "Junior Angular Developer",
+    "languages": ["JAVASCRIPT"],
+    "technologies": ["ANGULAR", "GIT", "SQL", "DOCKER", "GITHUB"],
+    "experienceMonths": 12,
+    "employmentType": "CONTRACT",
+    "remoteWorkType": "ON_SITE",
+    "salaryFrom": 3000.00,
+    "salaryTo": 4500.00
+  },
+  {
+    "title": "Senior QA Automation Engineer",
+    "languages": ["JAVA", "PYTHON"],
+    "technologies": ["SELENIUM", "JUNIT", "GIT", "DOCKER", "AWS", "JENKINS"],
+    "experienceMonths": 60,
+    "employmentType": "FULL_TIME",
+    "remoteWorkType": "REMOTE",
+    "salaryFrom": 6000.00,
+    "salaryTo": 8500.00
+  },
+  {
+    "title": "QA Engineer",
+    "languages": ["JAVA"],
+    "technologies": ["SELENIUM", "GITLAB", "SQL", "POSTGRESQL", "JUNIT", "DOCKER"],
+    "experienceMonths": 48,
+    "employmentType": "FULL_TIME",
+    "remoteWorkType": "HYBRID",
+    "salaryFrom": 5000.00,
+    "salaryTo": 7500.00
+  },
+  {
+    "title": "Automation Tester",
+    "languages": ["JAVASCRIPT"],
+    "technologies": ["SELENIUM", "GITHUB", "SQL", "AZURE", "POSTGRESQL"],
+    "experienceMonths": 36,
+    "employmentType": "FULL_TIME",
+    "remoteWorkType": "ON_SITE",
+    "salaryFrom": 4500.00,
+    "salaryTo": 7000.00
+  },
+  {
+    "title": "Performance Test Engineer",
+    "languages": ["PYTHON"],
+    "technologies": ["JENKINS", "SELENIUM", "DOCKER", "KUBERNETES", "AWS", "POSTGRESQL"],
+    "experienceMonths": 36,
+    "employmentType": "PART_TIME",
+    "remoteWorkType": "REMOTE",
+    "salaryFrom": 4000.00,
+    "salaryTo": 6000.00
+  },
+  {
+    "title": "Junior QA Manual Tester",
+    "languages": [],
+    "technologies": ["GIT", "SELENIUM"],
+    "experienceMonths": 12,
+    "employmentType": "CONTRACT",
+    "remoteWorkType": "ON_SITE",
+    "salaryFrom": 2500.00,
+    "salaryTo": 3500.00
+  },
+  {
+    "title": "Senior DevOps Engineer",
+    "languages": ["PYTHON", "BASH"],
+    "technologies": ["DOCKER", "KUBERNETES", "AWS", "GIT", "JENKINS", "TERRAFORM"],
+    "experienceMonths": 60,
+    "employmentType": "FULL_TIME",
+    "remoteWorkType": "REMOTE",
+    "salaryFrom": 7000.00,
+    "salaryTo": 10000.00
+  },
+  {
+    "title": "DevOps Engineer",
+    "languages": ["PYTHON", "JAVA"],
+    "technologies": ["GITLAB", "DOCKER", "KUBERNETES", "GITLAB_ACTIONS", "AWS", "TERRAFORM"],
+    "experienceMonths": 48,
+    "employmentType": "FULL_TIME",
+    "remoteWorkType": "HYBRID",
+    "salaryFrom": 6500.00,
+    "salaryTo": 9000.00
+  },
+  {
+    "title": "Cloud DevOps Engineer",
+    "languages": ["BASH"],
+    "technologies": ["AZURE", "DOCKER", "KUBERNETES", "JENKINS", "ANSIBLE", "TERRAFORM"],
+    "experienceMonths": 36,
+    "employmentType": "FULL_TIME",
+    "remoteWorkType": "ON_SITE",
+    "salaryFrom": 6000.00,
+    "salaryTo": 8500.00
+  },
+  {
+    "title": "Junior DevOps Engineer",
+    "languages": ["PYTHON"],
+    "technologies": ["GITHUB", "AWS", "DOCKER", "ANSIBLE", "JENKINS"],
+    "experienceMonths": 24,
+    "employmentType": "PART_TIME",
+    "remoteWorkType": "REMOTE",
+    "salaryFrom": 4500.00,
+    "salaryTo": 6000.00
+  },
+  {
+    "title": "DevOps Specialist",
+    "languages": ["BASH"],
+    "technologies": ["KUBERNETES", "GIT", "AWS", "DOCKER", "TERRAFORM", "CI_CD"],
+    "experienceMonths": 24,
+    "employmentType": "CONTRACT",
+    "remoteWorkType": "ON_SITE",
+    "salaryFrom": 4000.00,
+    "salaryTo": 5500.00
+  }
+]

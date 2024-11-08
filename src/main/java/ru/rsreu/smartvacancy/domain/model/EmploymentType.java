@@ -1,4 +1,4 @@
-package ru.rsreu.smartvacancy.model;
+package ru.rsreu.smartvacancy.domain.model;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

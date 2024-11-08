@@ -1,15 +1,21 @@
-package ru.rsreu.smartvacancy.model;
+package ru.rsreu.smartvacancy.domain.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
-import java.util.Set;
+import java.util.List;
 
 @Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Employee {
     private String name;
-    private Set<ProgrammingLanguage> languages;
-    private Set<Technology> technologies;
+    private List<ProgrammingLanguage> languages;
+    private List<Technology> technologies;
     private Integer experienceMonths;
     private EmploymentType employmentType;
     private RemoteWorkType remoteWorkType;

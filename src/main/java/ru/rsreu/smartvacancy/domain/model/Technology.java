@@ -1,4 +1,4 @@
-package ru.rsreu.smartvacancy.model;
+package ru.rsreu.smartvacancy.domain.model;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -15,6 +15,7 @@ public enum Technology {
     SPRING_BOOT("Spring Boot"),
     REACT("React"),
     ANGULAR("Angular"),
+    VUE_JS("VueJs"),
     DJANGO("Django"),
     LARAVEL("Laravel"),
     DOCKER("Docker"),
@@ -31,7 +32,10 @@ public enum Technology {
     JENKINS("Jenkins"),
     GITLAB_ACTIONS("Gitlab Actions"),
     SELENIUM("Selenium"),
-    JUNIT("Junit");
+    JUNIT("Junit"),
+    TERRAFORM("Terraform"),
+    ANSIBLE("Ansible"),
+    CI_CD("CI/CD");
 
     private final String technologyName;
 

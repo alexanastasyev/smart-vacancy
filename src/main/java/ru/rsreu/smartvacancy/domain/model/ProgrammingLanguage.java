@@ -1,4 +1,4 @@
-package ru.rsreu.smartvacancy.model;
+package ru.rsreu.smartvacancy.domain.model;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -15,12 +15,14 @@ public enum ProgrammingLanguage {
     CPP("C++"),
     JAVA("Java"),
     JAVASCRIPT("Javascript"),
+    TYPESCRIPT("TypeScript"),
     KOTLIN("Kotlin"),
     PYTHON("Python"),
     ONE_C("1C"),
     RUBY("Ruby"),
     SWIFT("Swift"),
-    PHP("PHP");
+    PHP("PHP"),
+    BASH("Bash");
 
     private final String languageName;
 
