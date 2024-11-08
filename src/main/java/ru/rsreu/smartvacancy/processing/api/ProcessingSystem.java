@@ -19,7 +19,8 @@ public interface ProcessingSystem<T> {
     /**
      * Ищет похожие объекты и возвращает их списком в порядке схожести
      * @param target Целевой объект
+     * @param limit количество искомых обхектов
      * @return Список объектов
      */
-    List<T> findSimilar(T target);
+    List<T> findSimilar(T target, int limit);
 }

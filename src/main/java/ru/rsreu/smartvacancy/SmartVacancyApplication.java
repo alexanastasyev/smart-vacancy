@@ -19,7 +19,7 @@ public class SmartVacancyApplication {
     @Bean
     public CommandLineRunner run(VacanciesFinder vacanciesFinder) {
         return (args -> {
-            List<Vacancy> vacancies = vacanciesFinder.find().stream().limit(5).toList();
+            List<Vacancy> vacancies = vacanciesFinder.find(5);
             vacancies.forEach(System.out::println);
         });
     }

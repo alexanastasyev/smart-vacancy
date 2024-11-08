@@ -21,7 +21,7 @@ public class VacanciesFinder {
     private final Function<Vacancy, ProcessingModel<Vacancy>> vacancyToProcessingModelMapper;
     private final Function<Employee, Vacancy> employeeToVacancyMapper;
 
-    public List<Vacancy> find() {
+    public List<Vacancy> find(int limit) {
         Vacancy perfectVacancy = employeeToVacancyMapper.apply(employeeLoader.loadEmployee());
         List<Vacancy> vacancies = vacancyLoader.loadVacancies();
         vacancies.add(perfectVacancy);
@@ -33,6 +33,6 @@ public class VacanciesFinder {
         ProcessingSystem<Vacancy> processingSystem = new ProcessingSystemImpl<>();
         processingSystem.inputModels(models);
         processingSystem.normalize();
-        return processingSystem.findSimilar(perfectVacancy);
+        return processingSystem.findSimilar(perfectVacancy, limit);
     }
 }

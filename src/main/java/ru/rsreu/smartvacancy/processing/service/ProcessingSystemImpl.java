@@ -23,7 +23,7 @@ public class ProcessingSystemImpl<T> implements ProcessingSystem<T> {
     }
 
     @Override
-    public List<T> findSimilar(T target) {
+    public List<T> findSimilar(T target, int limit) {
         ProcessingModel<T> targetModel = models.stream()
                 .filter(m -> m.entityKey().equals(target))
                 .findFirst()
@@ -40,6 +40,7 @@ public class ProcessingSystemImpl<T> implements ProcessingSystem<T> {
         return distances.stream()
                 .sorted(Comparator.comparingDouble(DistanceDto::distance))
                 .map(DistanceDto::entity)
+                .limit(limit)
                 .toList();
     }
 
