@@ -3,7 +3,7 @@ package ru.rsreu.smartvacancy.processing.model;
 import java.util.Map;
 
 public record ProcessingModel<T>(
-        T entityKey,
+        T entity,
         Map<String, Double> processingValues
 ) {
 }

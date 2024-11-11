@@ -25,7 +25,7 @@ public class ProcessingSystemImpl<T> implements ProcessingSystem<T> {
     @Override
     public List<T> findSimilar(T target, int limit) {
         ProcessingModel<T> targetModel = models.stream()
-                .filter(m -> m.entityKey().equals(target))
+                .filter(m -> m.entity().equals(target))
                 .findFirst()
                 .orElseThrow();
 
@@ -33,7 +33,7 @@ public class ProcessingSystemImpl<T> implements ProcessingSystem<T> {
         models.forEach(m -> {
             if (m != targetModel) {
                 double distance = calculateDistance(targetModel, m);
-                distances.add(new DistanceDto<>(m.entityKey(), distance));
+                distances.add(new DistanceDto<>(m.entity(), distance));
             }
         });
 
