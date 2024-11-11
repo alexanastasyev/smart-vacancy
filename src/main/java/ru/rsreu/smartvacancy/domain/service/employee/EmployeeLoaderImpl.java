@@ -13,7 +13,7 @@ import ru.rsreu.smartvacancy.domain.model.Employee;
 @RequiredArgsConstructor
 public class EmployeeLoaderImpl implements EmployeeLoader {
 
-    private final ObjectMapper objectMapper = new ObjectMapper();
+    private final ObjectMapper objectMapper;
     private final ResourceLoader resourceLoader;
 
     @Override

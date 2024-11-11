@@ -1,5 +1,6 @@
 package ru.rsreu.smartvacancy;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,10 +18,10 @@ public class SmartVacancyApplication {
     }
 
     @Bean
-    public CommandLineRunner run(VacanciesFinder vacanciesFinder) {
+    public CommandLineRunner run(VacanciesFinder vacanciesFinder, ObjectMapper objectMapper) {
         return (args -> {
             List<Vacancy> vacancies = vacanciesFinder.find(5);
-            vacancies.forEach(System.out::println);
+            System.out.println(objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(vacancies));
         });
     }
 
